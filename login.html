@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .login-form input:hover{
+            background-color: lightskyblue;
+        }
+        .login-form input{
+            margin-top: 10px;
+            font-size: 20px;
+            padding: 10px 30px;
+        }
+        .login-form input[type="submit"]{
+            background-color: lightcoral;
+            border-radius: 5px;
+            border: none;
+            color: lightgrey;
+            font-weight: 700;
+        }
+        nav a{
+            text-decoration: none;
+            color: maroon;
+            margin-right: 10px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Dashboard</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+     <section class="main">
+    <form class="login-form">
+        <h3>please login</h3>
+        <input type="email" name="" id="" placeholder="your email" required>
+        
+        <input type="password" name="" id="" placeholder="password" required>
+        <input type="submit" value="login">
+    </form>
+    </section>
+</body>
+</html>
